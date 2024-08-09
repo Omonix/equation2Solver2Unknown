@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Mini Equation 2</title>
+    <link rel="stylesheet" href="./style.css" />
+    <script src="./calculator.js"></script>
+  </head>
+  <body>
+    <div class="component">
+      <div class="equality">
+        <div class="upper">
+          <div>Equation 1</div>
+          <div>Equation 2</div>
+        </div>
+        <div class="upper">
+          <div class="firstInput">
+            <input class="theNum" type="number" placeholder="Number" />
+            <div>x</div>
+          </div>
+          <div class="firstInput">
+            <input class="theNum" type="number" placeholder="Number" />
+            <div>x</div>
+          </div>
+        </div>
+        <div class="operator">
+          <select class="operation">
+            <option value="add">+</option>
+            <option value="sous">-</option>
+            <option value="multi">*</option>
+            <option value="divi">/</option>
+          </select>
+        </div>
+        <div class="upper">
+          <div class="secondInput">
+            <input class="theNum" type="number" placeholder="Number" />
+            <div>y</div>
+          </div>
+          <div class="secondInput">
+            <input class="theNum" type="number" placeholder="Number" />
+            <div>y</div>
+          </div>
+        </div>
+        <div class="upper">
+          <div class="resultComponent">
+            <div>=</div>
+            <input class="result" type="number" placeholder="Result" />
+          </div>
+          <div class="resultComponent">
+            <div>=</div>
+            <input class="result" type="number" placeholder="Result" />
+          </div>
+        </div>
+      </div>
+      <div>
+        <div class="buttonXY">Find x and y</div>
+      </div>
+    </div>
+  </body>
+</html>
